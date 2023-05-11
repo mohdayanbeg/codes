@@ -22,6 +22,7 @@ int main()
     nums2={2,5,1,3,4,5,5,2,2,4,5,2,2,3,1,4,5,3,2,4,5,2,4,4,2,2,2,1,3,1};
     n1=nums1.size();
     n2=nums2.size();
+    cout<<"Atif";
 
     cout<< ans(0,0,nums1,nums2);
     
