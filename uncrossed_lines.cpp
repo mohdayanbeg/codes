@@ -18,11 +18,16 @@ int main()
 {
     vector<int> nums1;
     vector<int> nums2;
-    nums1={5,1,2,5,1,2,2,3,1,1,1,1,1,3,1};
-    nums2={2,5,1,3,4,5,5,2,2,4,5,2,2,3,1,4,5,3,2,4,5,2,4,4,2,2,2,1,3,1};
-    n1=nums1.size();
-    n2=nums2.size();
-    cout<<"Atif";
+    int a;
+    cin>>n1>>n2;
+    for(int i=0;i<n1;i++){
+        cin>>a;
+        nums1.push_back(a);
+    }
+    for(int i=0;i<n2;i++){
+        cin>>a;
+        nums2.push_back(a);
+    }
 
     cout<< ans(0,0,nums1,nums2);
     
